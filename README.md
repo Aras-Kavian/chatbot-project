@@ -13,3 +13,6 @@ No paid APIs. Expandable, multilingual, and fully open-source.
 ```bash
 pip install -r requirements.txt
 streamlit run app_streamlit.py
+=======
+# chatbot-project
+A simple chatbot project as a prototype
