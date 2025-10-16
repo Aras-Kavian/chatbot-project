@@ -1,0 +1,36 @@
+# Python virtual environments
+env/
+venv/
+.venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment files
+.env
+*.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Streamlit cache
+.streamlit/
+
+# Model and large data files
+*.h5
+*.pkl
+*.joblib
+*.ckpt
