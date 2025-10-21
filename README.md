@@ -24,12 +24,14 @@ This project demonstrates a complete workflow: loading pre-trained models (Blend
 ## 🧱 Project Structure
 
 bilingual-chatbot-project/
+- notebooks/
+- └── chatbot_project.ipynb
 - src/
 - ├── __init__.py
 - ├── chatbot.py
 - ├── model_loader.py
-- ├── utils.py
-- └── app_streamlit.py
+- └── utils.py
+- app_streamlit.py
 - requirements.txt
 - README.md
 
