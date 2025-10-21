@@ -1,0 +1,26 @@
+name: Deploy to Hugging Face Space
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Push to Hugging Face Space
+        run: |
+          git config --global user.email "a.kavian91@gmail.com"
+          git config --global user.name "Aras Kavian"
+          git clone https://huggingface.co/spaces/AI-1900/AI1900-Bilingual-Chatbot space
+          cp -r * space/
+          cd space
+          git add .
+          git commit -m "Auto update from GitHub" || echo "No changes"
+          git push
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
