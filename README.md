@@ -25,7 +25,7 @@ This project demonstrates a complete workflow: loading pre-trained models (Blend
 
 bilingual-chatbot-project/
 - notebooks/
-- └── chatbot_project.ipynb
+- └── chatbot_notebook.ipynb
 - src/
 - ├── __init__.py
 - ├── chatbot.py
