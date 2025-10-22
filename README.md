@@ -7,7 +7,7 @@ This project demonstrates a complete workflow: loading pre-trained models (Blend
 
 ## 🚀 Demo
 
-👉 [Live Streamlit App](https://ai1900-bilingual-chatbot.streamlit.app/)  
+👉 [Live Streamlit App](https://huggingface.co/spaces/AI-1900/AI1900-Bilingual-Chatbot)  
 - (Chat in Persian or English and get responses in the same language in real-time.)
 
 ---
